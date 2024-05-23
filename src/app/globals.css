@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.card {
+		@apply relative flex items-end px-3 py-2 sm:px-6 sm:py-4 aspect-[3/2] rounded-md sm:rounded-xl overflow-hidden;
+		box-shadow: 0 0 12px -4px theme('colors.secondary');
+
+		@media screen(sm) {
+			box-shadow: 0 0 20px -6px theme('colors.secondary');
+		}
+	}
+}

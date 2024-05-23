@@ -23,12 +23,12 @@ export const immigrationServices = [
 
 export const visaServices = [
     {
-        className: 'row-start-1',
+        className: 'md:row-start-1',
         label: 'Eta Canada',
         image: { source: '/visto-canada.jpg', alt: 'Applicazione visto Canada' }
     },
     {
-        className: 'row-start-1',
+        className: 'md:row-start-1',
         label: 'ESTA USA',
         image: { source: '/visto-usa.jpg', alt: 'Applicazione visto USA' }
     },

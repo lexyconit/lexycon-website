@@ -13,7 +13,7 @@ export function Header() {
                     />
                 </li>
                 <li className="hidden sm:block">
-                    <div className="inline-flex items-center gap-3 bg-primary/20 py-3 px-5 rounded-md">
+                    <div className="inline-flex items-center gap-3 bg-primary/20 py-2 md:py-3 px-3 md:px-5 rounded-md text-sm md:text-base">
                         <span>Contattaci:</span>
                         <a
                             href="mailto:info@lexycon.it"
